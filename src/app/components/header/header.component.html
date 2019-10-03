@@ -2,10 +2,12 @@
     <div class="toppe">
         <div class="container">
             <div class="social">
-                <a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                <!--a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a-->
+                <a href="https://twitter.com/@aextum" target="_blank"> <i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/aextum/" target="_blank"> <i class="fa fa-instagram"></i></a>
+
+
             </div>
         </div>
     </div>
@@ -23,7 +25,7 @@
                                                   <span class="icon-bar"></span>
                                                 </button>
                         <a class="navbar-brand" href="#">
-                            <img alt="logo" src="assets/img/logo.png">
+                            <img alt="logo aextum.com" src="assets/img/logo.png">
                         </a>
                     </div>
 
@@ -31,27 +33,27 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a [routerLink]="['/']" fragment="h" routerLinkActive="active">Inicio</a></li>
+                            <li><a href="/" target="_self">Inicio</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a [routerLink]="['/nosotros']" fragment="n" routerLinkActive="active">Nosotros</a></li>
-                                    <li><a [routerLink]="['/nosotros']" fragment="mis" routerLinkActive="active">Misión</a></li>
-                                    <li><a [routerLink]="['/nosotros']" fragment="vis" routerLinkActive="active">Visión</a></li>
+                                    <li><a href="/nosotros" target="_self">Nosotros</a></li>
+                                    <li><a href="/nosotros#mis" target="_self">Misión</a></li>
+                                    <li><a href="/nosotros#vis" target="_self">Visión</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a [routerLink]="['/servicios']" fragment="s" routerLinkActive="active">Todos Los Servicios</a></li>
-                                    <li><a [routerLink]="['/servicios/consultoria-sap-basis']" fragment="cs" routerLinkActive="active">Consultoría SAP Basis</a></li>
-                                    <li><a [routerLink]="['/servicios/administracion-de-sistemas']" fragment="as" routerLinkActive="active">Admin. de Sistemas</a></li>
-                                    <li><a [routerLink]="['servicios/upgrade']" fragment="up" routerLinkActive="active">Upgrade</a></li>
-                                    <li><a [routerLink]="['servicios/sap-hana']" fragment="sh" routerLinkActive="active">Sap Hana</a></li>
+                                    <li><a href="/servicios" target="_self">Todos Los Servicios</a></li>
+                                    <li><a href="/servicios/consultoria-sap-basis" target="_self">Consultoría SAP Basis</a></li>
+                                    <li><a href="/servicios/administracion-de-sistemas" target="_self">Admin. de Sistemas</a></li>
+                                    <li><a href="/servicios/upgrade" target="_self">Upgrade</a></li>
+                                    <li><a href="/servicios/sap-hana" target="_self">Sap Hana</a></li>
 
                                 </ul>
                             </li>
-                            <li><a [routerLink]="['/contacto']" fragment="c" routerLinkActive="active">Contacto</a></li>
+                            <li><a href="/contacto" target="_self">Contacto</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

@@ -40,6 +40,18 @@
                 </div>
             </form>
         </div>
+        <div class="service-error" *ngIf="error">
+            <h3>{{error.errorTitle}}</h3>
+            <h4>{{error.errorDesc}}</h4>
+        </div>
+        <div [hidden]="!submitted" class="contact-message">
+            <div *ngIf="model.id" class="contact-success">
+                <h3 class="success"> Enviado!</h3>
+                <h4> En Breve nos comunicaremos con usted.</h4>
+                <br />
+                <button (click)="gotoHome()" class="btn btn-info"> regresar al inicio</button>
+            </div>
+        </div>
 
         <div class="clear"></div>
 
