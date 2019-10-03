@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+.mouseicon {
+    width: 40px;
+    height: 60px;
+    border-radius: 16px;
+    border: 2px solid var(--azul);
+    ;
+    position: absolute;
+    bottom: 100%;
+    top: auto;
+    left: 50%;
+    z-index: 99;
+}
+
+.mouseicon,
+.mouseicon:before {
+    position: absolute;
+    left: 50%
+}
+
+.mouseicon {
+    width: 40px;
+    height: 70px;
+    margin-left: -20px;
+    top: 80%;
+    margin-top: 0px;
+    box-shadow: inset 0 0 0 1px var(--azul);
+    ;
+    border-radius: 25px;
+}
+
+.mouseicon:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: var(--azul);
+    ;
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(46px)
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mouseicon {
+        display: none;
+    }
+}

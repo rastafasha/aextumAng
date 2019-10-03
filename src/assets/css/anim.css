@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+
+body{
+	-webkit-animation:body-animacion 1s 1 ease;
+			-moz-animation:body-animacion 1s 1 ease;
+			-o-animation:body-animacion 1s 1 ease;
+			-ms-animation:body-animacion 1s 1 ease;
+			animation:body-animacion 1s 1 ease;
+
+}
+
+@-ms-keyframes body-animacion {
+	0%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-o-keyframes body-animacion {
+	0%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-moz-keyframes body-animacion {
+	0%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-webkit-keyframes body-animacion {
+	0%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+
+
+.aparece{
+	-webkit-animation:aparece-animacion 1s 1 ease;
+			animation:aparece-animacion 1s 1 ease;
+
+}
+
+@-ms-keyframes aparece-animacion {
+	0%   {opacity:0; transform: scale(2.2 ,2.2); }
+	50%   {opacity:0; transform: scale(2 ,2); }
+	100% {opacity:1;transform: scale(1,1); }
+}
+
+@-o-keyframes aparece-animacion {
+	0%   {opacity:0; transform: scale(2.2 ,2.2); }
+	50%   {opacity:0; transform: scale(2 ,2); }
+	100% {opacity:1;transform: scale(1,1); }
+}
+
+@-moz-keyframes aparece-animacion {
+	0%   {opacity:0; transform: scale(2.2 ,2.2); }
+	50%   {opacity:0; transform: scale(2 ,2); }
+	100% {opacity:1;transform: scale(1,1); }
+}
+
+@-webkit-keyframes aparece-animacion {
+	0%   {opacity:0; transform: scale(2.2 ,2.2); }
+	50%   {opacity:0; transform: scale(2 ,2); }
+	100% {opacity:1;transform: scale(1,1); }
+}
+
+
+
+.botonSlide{
+	-webkit-animation:botonSlide-animacion 5s 1 ease;
+			-moz-animation:botonSlide-animacion 5s 1 ease;
+			-o-animation:botonSlide-animacion 5s 1 ease;
+			-ms-animation:botonSlide-animacion 5s 1 ease;
+			animation:botonSlide-animacion 5s 1 ease;
+
+}
+
+@-ms-keyframes botonSlide-animacion {
+	0%   {opacity:0; top:-300px;}
+	50%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-o-keyframes botonSlide-animacion {
+	0%   {opacity:0; top:-300px;}
+	50%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-moz-keyframes botonSlide-animacion {
+	0%   {opacity:0; top:-300px;}
+	50%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+@-webkit-keyframes botonSlide-animacion {
+	0%   {opacity:0; top:-300px;}
+	50%   {opacity:0; top:-100px;}
+	100% {opacity:1;top:0px;}
+}
+
+
+.textosCenter1{
+	-webkit-animation:textosCenter1-animacion 1s 1 ease;
+			-moz-animation:textosCenter1-animacion 1s 1 ease;
+			-o-animation:textosCenter1-animacion 1s 1 ease;
+			-ms-animation:textosCenter1-animacion 1s 1 ease;
+			animation:textosCenter1-animacion 1s 1 ease;
+
+}
+
+@-ms-keyframes textosCenter1-animacion {
+	0%   {opacity:0; top:0%;}
+	50%   {opacity:0; top:25%;}
+	100% {opacity:1;top:50%}
+}
+
+@-o-keyframes textosCenter1-animacion {
+	0%   {opacity:0; top:0%;}
+	50%   {opacity:0; top:25%;}
+	100% {opacity:1;top:50%}
+}
+
+@-moz-keyframes textosCenter1-animacion {
+	0%   {opacity:0; top:0%;}
+	50%   {opacity:0; top:25%;}
+	100% {opacity:1;top:50%}
+}
+
+@-webkit-keyframes textosCenter1-animacion {
+	0%   {opacity:0; top:0%;}
+	50%   {opacity:0; top:25%;}
+	100% {opacity:1;top:50%}
+}
+.t1{
+	-webkit-animation:t1-animacion 2s 1 ease;
+			-moz-animation:t1-animacion 2s 1 ease;
+			-o-animation:t1-animacion 2s 1 ease;
+			-ms-animation:t1-animacion 2s 1 ease;
+			animation:t1-animacion 2s 1 ease;
+
+}
+
+@-ms-keyframes t1-animacion {
+	0%   {opacity:0; left:-300px;}
+	50%   {opacity:0; left:-100px;}
+	100% {opacity:1;left:0px;}
+}
+
+@-o-keyframes t1-animacion {
+		0%   {opacity:0; left:-300px;}
+	50%   {opacity:0; left:-100px;}
+	100% {opacity:1;left:0px;}
+}
+
+@-moz-keyframes t1-animacion {
+		0%   {opacity:0; left:-300px;}
+	50%   {opacity:0; left:-100px;}
+	100% {opacity:1;left:0px;}
+}
+
+@-webkit-keyframes t1-animacion {
+		0%   {opacity:0; left:-300px;}
+	50%   {opacity:0; left:-100px;}
+	100% {opacity:1;left:0px;}
+}
+
+.t2{
+	-webkit-animation:t2-animacion 4s 1 ease;
+			-moz-animation:t2-animacion 4s 1 ease;
+			-o-animation:t2-animacion 4s 1 ease;
+			-ms-animation:t2-animacion 4s 1 ease;
+			animation:t2-animacion 4s 1 ease;
+
+}
+
+@-ms-keyframes t2-animacion {
+	0%   {opacity:0; }
+	50%   {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes t2-animacion {
+	0%   {opacity:0; }
+	50%   {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes t2-animacion {
+	0%   {opacity:0; }
+	50%   {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes t2-animacion {
+	0%   {opacity:0; }
+	50%   {opacity:0;}
+	100% {opacity:1;}
+}
+
+
+
+
+

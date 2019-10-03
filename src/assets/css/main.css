@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+@import url("reset.css");
+@import url("font-awesome.css");
+@import url("font-awesome.min.css");
+@import url("bootstrap.css");
+@import url("bootstrap.min.css");
+@import url("fonts.css");
+@import url("testimoniales.css");
+@import url("anim.css");
+@import url("animate.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("botones.css");
+@import url("tops.css");
+@import url("menuangular.css");
+
+/*@import url("menu.css");*/
+
+@import url("formularios.css");
+@import url("mediaqueries.css");
+@import url("slider.css");
+@import url("backtotop.css");
+@import url("secciones.css");
+@import url("paralax.css");
+@import url("mouseicon.css");
+@import url("AextStyle.css");
+:root {
+    --azul: #253746;
+    --naranja: #eb7203;
+    --amarillo: #f18f00;
+}

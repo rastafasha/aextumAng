@@ -1,0 +1,50 @@
+<!---Contact home--->
+<section class="conctact">
+    <div class="container ">
+        <h3 class="text-center" style="color:var(--amarillo);">Más Información.</h3>
+        <br><br>
+        <div class=" col-xs-12 col-sm-10 col-sm-push-1 col-md-10 col-md-push-1 " [hidden]="submitted">
+            <form (ngSubmit)="onSubmit()" #masinfoForm="ngForm">
+                <div class="contactHomForm">
+                    <div class="camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="name" [(ngModel)]="model.name" #Nombre="ngModel" maxlength="114" size="50" class="cuadroInput" placeholder="Sr(a).">
+                    </div>
+                    <div class="camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="company" [(ngModel)]="model.company" #company="ngModel" maxlength="114" size="50" class="cuadroInput" placeholder="Empresa">
+                    </div>
+                    <div class="camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="email" [(ngModel)]="model.email" #email="ngModel" class="cuadroInput" placeholder="Email">
+                    </div>
+                    <div class="camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="phone" [(ngModel)]="model.phone" #Phone="ngModel" class="cuadroInput" placeholder="Teléfono">
+                    </div>
+
+                    <div class="camp col-xs-12 col-md-12">
+                        <select name="cargo" [(ngModel)]="model.cargo" #cargo="ngModel" class="ddList cuadroInput">
+                            <option value="">Cargo</option>
+                           <option class="lt" value="Ceo">CEO</option>
+                           <option class="lt" value="Gerente General">Gerente General</option>
+                           <option class="lt" value="Consulto">Consultor</option>
+                           <option class="lt" value="Gerente de Proyectos">Gerente de Proyectos</option>
+                           </select>
+                    </div>
+
+
+                    <div class="camp2 col-xs-12 col-md-12">
+                        <textarea name="message" [(ngModel)]="model.message" #Comments="ngModel" class="cuadroInput" placeholder="Comentarios" style="height:100px;"></textarea>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="row col-xs-12 col-md-12">
+                    <input [disabled]="!masinfoForm.form.valid" type="submit" name="contactar" value="Enviar" class="boton botonCont  col-xs-12 col-sm-4 col-sm-push-4 col-md-4 col-md-push-4 ">
+                </div>
+            </form>
+        </div>
+
+        <div class="clear"></div>
+
+
+    </div>
+</section>
+
+<div class="clear"></div>

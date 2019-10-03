@@ -1,0 +1,207 @@
+<section class="bannerinterno main" id="c" style="background-image:url(assets/img/textura2.png), url(assets/img/hands-coffee-smartphone-technology.jpg); background-size:auto, cover;  background-position:bottom right, center;">
+    <div class="textosCenter1 ">
+        <div class="container">
+
+            <h1 class="t1 text-center" style="color:var(--amarillo);">Contacto</h1>
+            <p class="t2 text-center" style="text-align:center;">Soluciones dinámicas de rápida implementación con uso por demanda y sin requerir infraestructura</p>
+
+        </div>
+    </div>
+
+</section>
+<section class="conctact">
+    <div class="container ">
+        <div class="row">
+            <div class="ContactoContainer col-xs-12 col-sm-12  col-md-7" [hidden]="submitted">
+                <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                    <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="Nombre" id="name" [(ngModel)]="model.name" #name="ngModel" class="form-control" placeholder="Nombre" required>
+                        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error">
+                            <div *ngIf="name?.errors.required">
+                                First Name es requerido.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="Company" id="lastname" [(ngModel)]="model.lastname" class="form-control" placeholder="Apellido" required #lastname="ngModel">
+                        <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="error">
+                            <div *ngIf="lastname?.errors.required">
+                                Last Name es requerido.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="Email" id="email" [(ngModel)]="model.email" class="form-control" placeholder="E-Mail" required email #email="ngModel">
+                        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error">
+                            <div *ngIf="email?.errors.required"> Email es requerido.</div>
+                            <div *ngIf="email?.errors.email"> Email debe ser válido.</div>
+                        </div>
+                    </div>
+                    <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="CellPhone" id="phone" [(ngModel)]="model.phone" class="form-control" placeholder=" teléfono">
+                    </div>
+                    <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
+                        <input type="text" name="cellphone" id="cellphone" [(ngModel)]="model.cellphone" class="form-control" placeholder=" Otro teléfono">
+                    </div>
+
+                    <div class="camp col-xs-12 col-sm-6 col-md-6">
+                        <select name="cargo" class="ddList cuadroInput" [(ngModel)]="model.cargo" #cargo="ngModel">
+                                             <option value="">Cargo</option>
+                                             <option class="lt" value="Ceo">CEO</option>
+                                             <option class="lt" value="Gergen">Gerente General</option>
+                                             <option class="lt" value="consl">Consultor</option>
+                                             <option class="lt" value="Genproy">Gerente de Proyectos</option>
+                                             </select>
+                    </div>
+                    <div class="form-group camp2 col-xs-12">
+                        <textarea name="message" id="message" [(ngModel)]="model.message" rows="5" class="form-control" placeholder=" Mensaje" required #message="ngModel"></textarea>
+                        <div *ngIf="message.invalid && (message.dirty || message.touched)" class="error">
+                            <div *ngIf="message?.errors.required">Message es requerido.</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button [disabled]="!contactForm.form.valid" class="boton col-xs-12 col-md-4 col-md-push-4"> Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="service-error" *ngIf="error">
+                <h3>{{error.errorTitle}}</h3>
+                <h4>{{error.errorDesc}}</h4>
+            </div>
+            <div [hidden]="!submitted" class="contact-message">
+                <div *ngIf="model.id" class="contact-success">
+                    <h3 class="success"> Enviado!</h3>
+                    <h4> En Breve nos comunicaremos con usted.</h4>
+                    <br />
+                    <button (click)="gotoHome()" class="btn btn-info"> regresar al inicio</button>
+                </div>
+            </div>
+
+            <div class="Social col-xs-12  hidden-sm  col-md-4">
+                <div id="direcc">
+                    <div class="info">
+                        <div class="icon_cont" style="height: 200px">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                        </div>
+
+                        <b class="font" style="font-size:18px;">Dirección:</b><br>
+                        <p style="text-align:left">Calle 60, P.H<br> Obarrio 60, Piso 14,<br> Oficina 14-C,<br> Obarrio, Panamá</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="info">
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Teléfonos:</b><br> Móvil: +507 6214 7801<br> Ofc: +507 397-3526<br>
+                    </div>
+                    <div class="info">
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-envelope" style="margin-top:-20px;"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Correo Electrónico:</b>
+                        <a href="mailto:contacto@gmail.com" target="_blank">contacto@gmail.com</a>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="info">
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Horario:</b> 9:30 am a 12:00 pm<br> 1:30 am a 4:30 pm<br> de lunes a viernes
+                    </div>
+                    <div class="info_social" style="border: none;">
+                        <h6 style="color:var(--amarillo);">Síguenos en:</h6>
+
+                        <div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Social visible-sm">
+                <div id="direcc">
+                    <div class="info col-sm-6" style="border: none;">
+                        <div class="icon_cont" style="height: 200px">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                        </div>
+
+                        <b class="font" style="font-size:18px;">Dirección:</b><br>
+                        <p style="text-align:left">Vía Italia, Edificio Konkord, <br>piso 10, Ofic 10A,<br> Punta Paitilla, Corregimiento de San Francisco, <br>Ciudad de Panamá</p>
+                    </div>
+                    <div class="info col-sm-6" style="border: none;">
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Teléfonos:</b><br>
+                        <p>Telf: (0212) 00000<br> Móvil: (0414) 0000000</p>
+                        <div class="clear"></div>
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-envelope" style="margin-top:-20px;"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Correo Electrónico:</b>
+                        <a href="mailto:contacto@gmail.com" target="_blank">contacto@gmail.com</a>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="info col-sm-6" style="border: none;">
+                        <div class="icon_cont">
+                            <div class="icon">
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+                        </div>
+                        <b class="font" style="font-size:18px;">Horario:</b> 9:30 am a 12:00 pm<br> 1:30 am a 4:30 pm<br> de lunes a viernes
+                    </div>
+                    <div class="info_social col-sm-6" style="border: none;">
+                        <h6 style="color:var(--amarillo);">Síguenos en:</h6>
+
+                        <div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <div class="icon col-xs-1 ">
+                                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<app-registros></app-registros>

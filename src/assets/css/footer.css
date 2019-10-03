@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+footer {
+    background-color: var(--azul);
+    ;
+    min-height: 70px;
+    height: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--amarillo);
+}
+
+footer .logo {
+    width: 144px;
+    height: 45px;
+    margin-left: -35px;
+}
+
+footer ul {
+    display: block;
+    padding-top: 15px;
+}
+
+footer ul li {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+footer ul li a,
+footer a {
+    color: var(--amarillo);
+}
+
+footer ul li a:hover,
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+    padding-top: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.copyright {
+    height: 50px;
+    border-top: 1px solid var(--amarillo);
+    background-color: var(--azul);
+    ;
+}
+
+.copyright p {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 15px;
+    color: #999;
+    text-align: right;
+}
+
+.copyright p a {
+    color: #999;
+    text-decoration: none;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+.copyright a:hover {
+    color: var(--amarillo);
+    text-decoration: none;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+@media only screen and (max-width: 590px) and (orientation: portrait) {
+    footer .logo {
+        width: 144px;
+        height: 45px;
+        margin-left: 0px;
+    }
+    footer ul {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    .copyright p {
+        font-size: 9px;
+        padding-top: 15px;
+        color: #999;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 590px) and (orientation: landscape) {
+    footer .logo {
+        width: 144px;
+        height: 45px;
+        margin-left: 0px;
+    }
+    footer ul {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    .copyright p {
+        font-size: 9px;
+        padding-top: 15px;
+        color: #999;
+        text-align: left;
+    }
+}

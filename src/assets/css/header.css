@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+.toppe {
+    background-color: var(--amarillo);
+    height: 30px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    position: fixed;
+    background-color: var(--azul);
+    transition: all 1s;
+}
+
+.header2 {
+    position: fixed;
+    height: 100px;
+    z-index: 2000;
+    box-shadow: 0px 2px 4px #000;
+    transition: all 1s;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 47px;
+    float: left;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .logo {
+        margin-left: 0px;
+    }
+    header {
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+}
+
+
+/*---social--*/
+
+.toppe .social {
+    float: right;
+    padding-top: 5px;
+    height: 30px;
+}
+
+.social {
+    width: 130px;
+    padding-top: 3px
+}
+
+.social i {
+    font-size: 22px;
+    margin: 3px;
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.twitt {
+    height: 300px;
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+    .logo {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1030px) and (orientation: portrait) {
+    .toppe {
+        background-color: var(--amarillo);
+        height: 30px;
+        margin-top: -6px;
+    }
+    header {
+        position: relative;
+        z-index: 0;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1030px) and (orientation: landscape) {
+    .toppe {
+        background-color: var(--amarillo);
+        height: 35px;
+    }
+    .toppe .social {
+        float: right;
+        padding-top: 3px;
+        margin-right: -10px;
+    }
+    .logo {
+        background-image: url(../img/logo.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 188px;
+        height: 40px;
+        float: left;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+}

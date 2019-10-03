@@ -1,0 +1,57 @@
+.boton {
+    background-color: var(--amarillo);
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid var(--amarillo);
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    display: block;
+    margin: 20px auto;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.boton:hover {
+    text-align: center;
+    background-color: transparent;
+    color: var(--amarillo);
+    border: 1px solid var(--amarillo);
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+
+.loadmore {
+    width: 100%;
+    height: 45px;
+    background-color: var(--amarillo);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.inic {
+    width: 90px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    background-color: rgba(250, 250, 250, 0.5);
+    margin: 5px;
+}

@@ -1,0 +1,554 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+html,
+body {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: #990000;
+    padding: 10px;
+    color: #efefef;
+}
+
+body {
+    background-color: #f2f2f2 !important;
+    font-family: 'Gudea', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 50px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 40px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 30px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 24px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 20px !important;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    color: var(--amarillo);
+    font-size: 20px !important;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+
+ul li {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+hr {
+    border-top: 1px solid #ccc !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+a:hover,
+a i:hover,
+a i:active {
+    text-decoration: none !important;
+}
+
+.active {
+    color: var(--amarillo) !important;
+}
+
+b {
+    font-family: 'Gudea', sans-serif !important;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 770px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@naranja: var(--amarillo);
+@azul: var(--azul);
+.main {
+    padding-top: 250px;
+}
+
+.clear {
+    clear: both;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 0;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: orange;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: none;
+}
+
+.inset {
+    -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, .4);
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, .24);
+}
+
+.flex {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.marco1 {
+    border: 27px solid;
+    border-image-source: url(../img/logosolo.png);
+    border-image-slice: 27;
+    padding: 30px;
+    box-shadow: 0px 2px 6px #3131316e;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .marco1 {
+        border: 3px solid;
+        border-image-source: url(../img/logosolo.png);
+        border-image-slice: 3;
+    }
+}
+
+
+}
+.linM {
+    border-bottom: 1px solid var(--amarillo);
+    height: 40px;
+    background-color: #eb7203
+}
+.bullet ul li {
+    list-style-image: url(../img/bullet.gif);
+}
+
+/*---Icontext--*/
+.iconText {
+    height: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.iconText i {
+    font-size: 40px;
+    color: var(--amarillo);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30%;
+}
+.iconText h2 {
+    color: var(--amarillo);
+    text-align: center;
+}
+.iconText .circle {
+    background: transparent;
+    border-style: solid;
+    border: 1px solid var(--amarillo);
+}
+.circle_Title {
+    width: 38%;
+    height: 180px;
+    float: left;
+}
+.circle_Title .circle {
+    background: transparent;
+    border-style: solid;
+    border: 1px solid var(--amarillo);
+}
+.circle_Title .circle i {
+    font-size: 40px;
+    color: var(--amarillo);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 30%;
+}
+
+/*---*/
+.bordAex {
+    background: transparent;
+    border-style: solid;
+    border-width: 27px 27px 26px 26px;
+    -moz-border-image: url(../img/logosolo.png) 27 27 26 26 repeat;
+    -webkit-border-image: url(../img/logosolo.png) 27 27 26 26 repeat;
+    -o-border-image: url(../img/logosolo.png) 27 27 26 26 repeat;
+    border-image: url(../img/logosolo.png) 27 27 26 26 fill repeat;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.bordAex i {
+    font-size: 60px;
+    color: var(--amarillo);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.hom .iconText .bordAex {
+    width: 40%;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media only screen and (min-width: 590px) and (max-width: 990px) {
+    .hom .iconText .bordAex {
+        width: 90%;
+        height: 120px;
+    }
+}
+
+/*---about nosotros--*/
+.contenidoabout {
+    min-height: 300px;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.misio {
+    padding-top: 95px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.contenidoabout h4 {
+    color: #fff;
+    background-color: var(--amarillo);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenidoabout1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--azul);
+    ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.contenidoabout1 h4 {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bio h1 {
+    padding-bottom: 40px;
+}
+.bio img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 130px;
+    -o-border-radius: 130px;
+    -webit-border-radius: 130px;
+    -moz-border-radius: 130px;
+}
+
+/*----ofic--*/
+.offic {
+    background-image: url(../img/OutsideCounsel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 520px;
+    height: auto;
+    background-color: var(--azul);
+    ;
+    margin: 0;
+    padding-top: 120px;
+}
+.viss {
+    background-image: url(../img/textura3.png), url(../img/pexels-photo-26419.jpg);
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+@media only screen and (max-width: 590px) {
+    .viss {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.offic .moduloanuncio {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.offic .moduloanuncio p {
+    color: #fff;
+}
+
+/*----city2---*/
+.city2 {
+    background-image: url(../img/textura2.png), url(../img/header-background-3.jpg);
+    background-position: right bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    min-height: 300px;
+    height: auto;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.moduloanuncio {
+    min-height: 198px;
+    height: auto;
+    background-color: rgba(250, 250, 250, 0.7);
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 2px 6px #3131316e;
+}
+.moduloanuncio h3 {
+    color: var(--amarillo);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.moduloanuncio p {
+    color: #333;
+}
+
+/*----contact**/
+.conctact {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/*---soluciones*/
+.moduloSoluc {
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.moduloSoluc .bordAex {
+    width: 80%
+}
+@media only screen and (max-width: 590px) {
+    .bordAex i {
+        font-size: 40px;
+    }
+    
+    .moduloSoluc .bordAex {
+        width: 100%;
+    }
+}
+.moduloSoluc i {
+    text-align: center;
+}
+.moduloSoluc p {
+    padding: 10px;
+    text-align: center;
+}
+.moduloSoluc h6 {
+    color: var(--amarillo);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.soluc {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 600px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.soluc1 {
+    background-image: url(../img/textura3.png), url(../img/startup-photosConsulSAP.jpg);
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+}
+.soluc2 {
+    background-image: url(../img/textura4.png), url(../img/startup-photosAdmSist.jpg);
+    background-size: auto, cover;
+    background-position: bottom right, center;
+}
+.soluc3 {
+    background-image: url(../img/textura3.png), url(../img/pexels-photo-27501.jpg);
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+}
+.soluc4 {
+    background-image: url(../img/textura2.png), url(../img/pexels-photo-134643.jpeg);
+    background-position: right center;
+    background-size: auto, cover;
+    background-position: bottom right, center;
+}
+.soluc5 {
+    background-image: url(../img/photo-SapSolut.jpg);
+    background-position: right center;
+}
+.contTt {
+    background-color: rgba(37, 55, 70, 0.7);
+    padding: 15px;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: 0px 2px 6px #3131316e;
+}
+.contTt1 {
+    margin-top: 160px;
+}
+.contTt p {
+    color: #fff;
+}
+.contTt ul li {
+    color: #fff;
+}
+@media only screen and (max-width: 770px) {
+    .contTt h3 {
+        font-size: 24px !important;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1030px) and (orientation: portrait) {
+    .soluc {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        min-height: 300px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1030px) and (orientation: landscape) {
+    .soluc {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        min-height: 300px;
+        height: auto;
+    }
+}
+
+/*---Proyectos---*/
+.proyecs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.proyecs img {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 15px;
+}
+#uno {
+    height: 50px;
+}
+#loader {
+    background-image: url(../img/loading.gif);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 20% auto;
+    z-index: 999999;
+    background-color: #fff;
+    border: 1px solid rgba(235, 114, 3, 1);
+}

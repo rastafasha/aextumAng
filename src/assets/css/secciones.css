@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*Author: Malcolm cordova @malcolmcordova mercadocreativo@gmail.com www.malcolmcordova.com*/
+
+
+/*----sections--*/
+
+.secct {
+    min-height: 367px;
+    height: auto;
+    margin: 0;
+    margin: 0;
+}
+
+
+/*
+.city {
+    background-image:url(../img/textura.png), url(../img/03._Ciudad_de_Panama_de_noche..JPG);
+    background-position:left top, center;
+    background-repeat:repeat, no-repeat;
+    background-size:5%, cover;
+    min-height:367px;
+    height:auto;
+    margin: 0;
+    padding-top: 30px;
+    
+}*/
+
+.city {
+    background-image: url(../img/03._Ciudad_de_Panama_de_noche..JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 367px;
+    height: auto;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.texture {
+    background-image: url(../img/textura.png);
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: 5%;
+    min-height: 200px;
+    height: auto;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-blend-mode: soft-light;
+}
+
+.tipo {
+    background-image: url(../img/small-business-services.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 367px;
+    height: auto;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+.servv {
+    background-color: #f2f2f2;
+    min-height: 200px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Desempe {
+    background-image: url(../img/textura4.png), url(../img/pexels-photo.jpg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.auditoria {
+    background-image: url(../img/textura3.png), url(../img/pexels-photo-96612.jpeg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.evluacion {
+    background-image: url(../img/textura4.png), url(../img/evaluacioninicial.jpeg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.archDatos {
+    background-image: url(../img/archivado.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.respRec2 {
+    background-image: url(../img/textura3.png), url(../img/backupandrestore.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.migr2 {
+    background-image: url(../img/textura4.png), url(../img/migration-6c.jpg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.saphealt {
+    background-image: url(../img/40977197-stethoscope-wallpapers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: auto;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.saphealt p {
+    color: #fff;
+}
+
+.archDatos p {
+    color: #fff;
+}
+
+.archDatos img {
+    width: 99%;
+    display: block;
+    margin: auto;
+}
+
+.servDipo {
+    min-height: 500px;
+    height: auto;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servDipo img {
+    width: 99%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.segurid {
+    background-image: url(../img/securitydata.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: auto;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.migracionw {
+    background-image: url(../img/textura4.png), url(../img/migracion.jpg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.migracion {
+    min-height: 500px;
+    height: auto;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.respRec img {
+    width: 99%;
+}
+
+.gest {
+    background-image: url(../img/SAP-HANA-Cloud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: auto !important;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.planec {
+    background-image: url(../img/pexels-photo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: auto !important;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.oper {
+    background-image: url(../img/textura3.png), url(../img/white-workspace_385-19322673.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.gest2 {
+    background-image: url(../img/textura3.png), url(../img/hands-people-woman-meeting.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.adc {
+    background-image: url(../img/textura3.png), url(../img/adcuacion.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.ejecu {
+    background-image: url(../img/textura4.png), url(../img/startup-photos2.jpg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.SApmonito {
+    background-image: url(../img/textura4.png), url(../img/man-coffee-cup-pen.jpg);
+    background-position: right bottom, center !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover !important;
+}
+
+.sapAct {
+    background-image: url(../img/textura3.png), url(../img/pexels-photoActualiz.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+.SApAdmin {
+    background-image: url(../img/pexels-photo-113850.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: auto !important;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.respRec {
+    background-image: url(../img/textura3.png), url(../img/respaldoyrescuperacion.jpg);
+    background-position: bottom left, center !important;
+    background-repeat: no-repeat;
+    background-size: auto, cover !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .city,
+    .texture,
+    .tipo,
+    .servv,
+    .Desempe,
+    .auditoria,
+    .saphealt,
+    .gest,
+    .planec,
+    .SApAdmin,
+    .SApmonito,
+    .oper,
+    .ejecu,
+    .gest2,
+    .sapAct {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .gest h2 {
+        padding-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .tipo {
+        background-image: none;
+        height: auto;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 770px) and (orientation:landscape) {
+    .tipo {
+        background-image: none;
+        height: auto;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background-color: #fff;
+    }
+}
+
+.noshome {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: var(--azul);
+    ;
+}
+
+.noshome h1,
+.noshome p {
+    color: #fff;
+    text-align: left;
+}
+
+.noshome h1 {
+    padding-bottom: 15px;
+}
+
+.noshome h4 {
+    color: var(--amarillo);
+}
+
+.noshome img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+/*----Degrades--*/
+
+.degradeAzulInclinado {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c2f51+0,009ec3+100 */
+    background: rgb(12, 47, 81);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(12, 47, 81, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(12, 47, 81, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(12, 47, 81, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0c2f51', endColorstr='#009ec3', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.degradegris {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100 */
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+    /* IE6-9 */
+}
+
+.degradegris1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,ffffff+100 */
+    background: rgb(229, 229, 229);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+}
+
+@media only screen and (max-width: 600px) {
+    .archDatos {
+        min-height: 400px;
+        height: auto;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .servDipo {
+        height: auto;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .servDipo img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

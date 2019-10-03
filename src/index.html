@@ -1,14 +1,175 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Aextumwepapp</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <title>AEXTUM, Cosulting Group</title>
+    <base href="/">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gudea:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.7.1.js'></script>
+    <script src="assets/js/backtotop.js"></script>
+    <script src="assets/js/paralax.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Consolidarnos como líderes en el sector de tecnologías de información ofreciendo los mejores servicios, que nos permita ser reconocidos como el perfecto aliado de negocios para la implementación de soluciones tecnológicas efectivas manteniendo
+    un crecimiento financiero sostenido.">
+    <meta name="keywords" content="sap, administración, sistemas SAP, optimización, +consultoria, consultoria sap basis, upgrade, sap hana, aextum, cosulting grup">
+    <meta property="og:image" content="https://www.aextum.com/assets/img/aextum.jpg" />
+    <meta property="og:url" content="https://www.aextum.com" />
+    <meta property="og:title" content="AEXTUM, Cosulting Group" />
+    <meta property="og:description" content="Consolidarnos como líderes en el sector de tecnologías de información ofreciendo los mejores servicios, que nos permita ser reconocidos como el perfecto aliado de negocios para la implementación de soluciones tecnológicas efectivas manteniendo
+    un crecimiento financiero sostenido." />
+    <link rel=”canonical” href="https://www.aextum.com" />
+    <meta name="revisit-after" content="7 days">
+    <meta name="copyright" content="aextum.com">
+    <meta name="author" content="SEO by @malcolm_cordova">
+    <meta name="language" content="english">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <!--=====================================
+	Marcado de Open Graph FACEBOOK
+	======================================-->
+
+    <meta property="og:title" content="AEXTUM, Cosulting Group">
+    <meta property="og:url" content="https://www.aextum.com">
+    <meta property="og:description" content="Consolidarnos como líderes en el sector de tecnologías de información ofreciendo los mejores servicios, que nos permita ser reconocidos como el perfecto aliado de negocios para la implementación de soluciones tecnológicas efectivas manteniendo
+    un crecimiento financiero sostenido.">
+    <meta property="og:image" content="https://www.aextum.com/assets/img/aextum.jpg">
+    <meta property="og:type" content="webapp">
+    <meta property="og:site_name" content="https://www.aextum.com/assets/img/logo.png">
+    <meta property="og:locale" content="en_US">
+
+    <!--=====================================
+	Marcado para DATOS ESTRUCTURADOS GOOGLE
+	======================================-->
+
+    <meta itemprop="name" content="AEXTUM, Cosulting Group">
+    <meta itemprop="url" content="https://www.aextum.com">
+    <meta itemprop="description" content="Consolidarnos como líderes en el sector de tecnologías de información ofreciendo los mejores servicios, que nos permita ser reconocidos como el perfecto aliado de negocios para la implementación de soluciones tecnológicas efectivas manteniendo
+    un crecimiento financiero sostenido.">
+    <meta itemprop="image" content="https://www.aextum.com/assets/img/aextum.jpg">
+    <script>
+        $(function() {
+            var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+        });
+
+        $(window).resize(function() {
+            var w = $(window).width();
+            if (w > 810 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+    </script>
+
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function($) {
+            $('.up').waypoint(function() {
+                $(this).toggleClass('fadeInUp animated');
+            }, {
+                offset: '70%',
+                triggerOnce: true
+            });
+
+        });
+    </script>
+
+    <style>
+        .up {
+            opacity: 0;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#carousel1').each(function() {
+                $(this).carousel({
+                    pause: false,
+                    interval: 16000
+                });
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.ancla').click(function() {
+                var link = $(this);
+                var anchor = link.attr('href');
+                $('html, body').stop().animate({
+                    scrollTop: jQuery(anchor).offset().top
+                }, 2000);
+                return false;
+            });
+        });
+
+        //
+
+        $(document).ready(function() {
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('header').addClass('header2');
+                } else {
+                    $('header').removeClass('header2');
+                }
+            });
+
+
+        });
+    </script>
 </head>
-<body>
-  <app-root></app-root>
+
+<body id="top">
+    <div class="se-pre-con"></div>
+    <div id="pagewrap">
+        <p id="back-top" style="display: block; ">
+            <a href="#top"><span><i class="fa fa-chevron-up"></i></span></a>
+        </p>
+
+        <app-root></app-root>
+
+        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+        <script src="assets/js/main.js"></script>
 </body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://aextum.com/",
+        "name": "AEXTUM, Cosulting Group",
+        "image": "https://www.aextum.com/assets/img/aextum.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+507-397-35-26",
+            "contactType": "Customer service"
+        }
+    }
+</script>
+
 </html>

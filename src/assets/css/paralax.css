@@ -1,0 +1,56 @@
+.pagina {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pagina:nth-child(1) { background-image: url(http://31.media.tumblr.com/f6c67ec2821a91051e4175f8a102e1e2/tumblr_n6rzpcsMk41st5lhmo1_1280.jpg); }
+.pagina:nth-child(2) { background-image: url(http://38.media.tumblr.com/63748da1fab7ccebe70355807587d659/tumblr_n6rz5eNBG51st5lhmo1_1280.jpg); }
+.pagina:nth-child(3) { background-image: url(http://38.media.tumblr.com/ddcaa618d51897a5263bd106bf573917/tumblr_n6esribU971st5lhmo1_1280.jpg); }
+
+@media only screen and (max-width : 590px) {
+    .pagina {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+
+@media only screen and (min-width : 600px) and (max-width : 1200px)  and (orientation:portrait) {
+    .pagina {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        }
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1200px) and (orientation:landscape) {
+    .pagina {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        }
+}
