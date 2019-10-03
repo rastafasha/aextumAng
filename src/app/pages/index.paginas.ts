@@ -6,6 +6,8 @@ export { ConsultoriasapComponent } from '../pages/consultoriasap/consultoriasap.
 export { AdmsistemasComponent } from '../pages/admsistemas/admsistemas.component';
 export { UpgradeComponent } from '../pages/upgrade/upgrade.component';
 export { SaphanaComponent } from '../pages/saphana/saphana.component';
+export { SitemapComponent } from '../pages/sitemap/sitemap.component';
+export { NotFoundComponent } from '../pages/not-found/not-found.component';
 
 
 

@@ -24,6 +24,8 @@ import { BannertopComponent } from './components/bannertop/bannertop.component';
 
 import { ContactFormComponent } from './cmspage/contact-form/contact-form.component';
 import { RegistrosComponent } from './cmspage/registros/registros.component';
+import { SitemapComponent } from './pages/sitemap/sitemap.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 
 
@@ -44,7 +46,9 @@ import { RegistrosComponent } from './cmspage/registros/registros.component';
     BannerComponent,
     BannertopComponent,
     ContactFormComponent,
-    RegistrosComponent
+    RegistrosComponent,
+    SitemapComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

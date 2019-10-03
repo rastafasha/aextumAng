@@ -132,7 +132,7 @@
 
 @media only screen and (max-width: 590px) {
     .textosCenter {
-        top: -110px;
+        top: 250px;
         background-color: var(--azul);
         ;
     }
@@ -182,12 +182,15 @@
         height: 380px;
         margin-top: 0px;
     }
+    .slider .item img {
+        top: 130px;
+    }
 }
 
 
 /*---samsun s5---*/
 
-@media only screen and (min-device-width: 300px) and (max-width: 400px) and (orientation: portrait) {
+@media only screen and (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
     .banner {
         height: 380px;
         margin-bottom: 20px;
@@ -276,30 +279,32 @@
     transform: translate3d(0, 0, 0);
 }
 
-
-}
 .carousel-control {
     z-index: 2;
 }
 
-}
 .slide .carousel-indicators li {
     color: var(--amarillo);
 }
+
 .slide .carousel-indicators {
     bottom: 10px !important;
     border-color: #eb7203 !important;
 }
+
 .slide ol li {
     border-color: var(--amarillo);
 }
+
 .slide .carousel-indicators .active {
     background-color: var(--amarillo);
 }
+
 .botonbann {
-    -webkit-animation:botonbann-animacion 1s 1 ease;
-    animation:botonbann-animacion 1s 1 ease;
+    -webkit-animation: botonbann-animacion 1s 1 ease;
+    animation: botonbann-animacion 1s 1 ease;
 }
+
 @-ms-keyframes botonbann-animacion {
     0% {
         opacity: 0;
@@ -311,6 +316,7 @@
         opacity: 1;
     }
 }
+
 @-o-keyframes botonbann-animacion {
     0% {
         opacity: 0;
@@ -322,6 +328,7 @@
         opacity: 1;
     }
 }
+
 @-moz-keyframes botonbann-animacion {
     0% {
         opacity: 0;
@@ -333,6 +340,7 @@
         opacity: 1;
     }
 }
+
 @-webkit-keyframes botonbann-animacion {
     0% {
         opacity: 0;
@@ -344,6 +352,7 @@
         opacity: 1;
     }
 }
+
 @media only screen and (max-width: 690px) {
     .botonbann {
         width: 120px;
@@ -353,14 +362,18 @@
     }
 }
 
+
 /**---carousel Testimonios--*/
+
 .city .slide ol li {
     background-color: #fff !important;
 }
+
 .city .slide .carousel-indicators .active {
     background-color: #eb7203 !important;
 }
+
 .city .slide .item img {
-    margin-top:5px;
+    margin-top: 5px;
     width: 98%;
 }

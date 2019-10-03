@@ -68,8 +68,8 @@
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: transparent !important;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .navbar-brand>img {
@@ -105,6 +105,6 @@
 
 @media (max-width: 768px) {
     .navbar-brand>img {
-        padding-top: 10px;
+        padding-top: 15px;
     }
 }
