@@ -8,9 +8,19 @@
             <form (ngSubmit)="onSubmit()" #newsletterForm="ngForm">
                 <div class="input-group ">
                     <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                    <input type="text" name="email" id="email" [(ngModel)]="model.email" class="form-control" placeholder="E-Mail" email #email="ngModel">
+                    <input type="text" name="email" id="email" [(ngModel)]="model.email" class="form-control" placeholder="E-Mail" email #email="ngModel" required>
+                    <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error">
+                        <div *ngIf="email?.errors.required">
+                            Email es requerido.
+                        </div>
+                    </div>
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" name="nombre" id="nombre" [(ngModel)]="model.nombre" #nombre="ngModel" class="form-control" placeholder="Nombre y Apellido">
+                    <input type="text" name="nombre" id="nombre" [(ngModel)]="model.nombre" #nombre="ngModel" class="form-control" placeholder="Nombre y Apellido" required>
+                    <div *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)" class="error">
+                        <div *ngIf="nombre?.errors.required">
+                            Nombre es requerido.
+                        </div>
+                    </div>
                     <div class="clear"></div>
 
                 </div>

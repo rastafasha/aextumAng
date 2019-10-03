@@ -18,7 +18,7 @@
                         <input type="text" name="Nombre" id="name" [(ngModel)]="model.name" #name="ngModel" class="form-control" placeholder="Nombre" required>
                         <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error">
                             <div *ngIf="name?.errors.required">
-                                First Name es requerido.
+                                Nombre es requerido.
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                         <input type="text" name="Company" id="lastname" [(ngModel)]="model.lastname" class="form-control" placeholder="Apellido" required #lastname="ngModel">
                         <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="error">
                             <div *ngIf="lastname?.errors.required">
-                                Last Name es requerido.
+                                Apellido es requerido.
                             </div>
                         </div>
                     </div>
