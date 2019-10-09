@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent, NosotrosComponent, ServiciosComponent, ConsultoriasapComponent,
-  AdmsistemasComponent, UpgradeComponent, SaphanaComponent, SitemapComponent, NotFoundComponent} from './pages/index.paginas';
+  AdmsistemasComponent, UpgradeComponent, SaphanaComponent, SitemapComponent, NotFoundComponent,
+  PoliticascookiesComponent, PoliticaPrivacidadComponent, TerminosUsoComponent} from './pages/index.paginas';
 
 import { ContactFormComponent} from './cmspage/contact-form/contact-form.component';
 
@@ -21,6 +22,9 @@ const routes: Routes = [
   {path: 'servicios/sap-hana', component: SaphanaComponent},
   {path: 'contacto', component: ContactFormComponent},
   {path: 'site-map', component: SitemapComponent},
+  {path: 'politicas-cookies', component: PoliticascookiesComponent},
+  {path: 'politicas-privacidad', component: PoliticaPrivacidadComponent},
+  {path: 'terminos-de-servicio', component: TerminosUsoComponent},
   {path: '', redirectTo: '', pathMatch: 'full'},
   {path: '**', component: NotFoundComponent},
 ];

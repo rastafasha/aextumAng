@@ -16,7 +16,7 @@
                 <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
                     <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
                         <input type="text" name="Nombre" id="name" [(ngModel)]="model.name" #name="ngModel" class="form-control" placeholder="Nombre" required>
-                        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error">
+                        <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error alert alert-warning">
                             <div *ngIf="name?.errors.required">
                                 Nombre es requerido.
                             </div>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
                         <input type="text" name="Company" id="lastname" [(ngModel)]="model.lastname" class="form-control" placeholder="Apellido" required #lastname="ngModel">
-                        <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="error">
+                        <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="error alert alert-warning">
                             <div *ngIf="lastname?.errors.required">
                                 Apellido es requerido.
                             </div>
@@ -32,13 +32,13 @@
                     </div>
                     <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
                         <input type="text" name="Email" id="email" [(ngModel)]="model.email" class="form-control" placeholder="E-Mail" required email #email="ngModel">
-                        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error">
+                        <div *ngIf="email.invalid && (email.dirty || email.touched)" class="error alert alert-warning ">
                             <div *ngIf="email?.errors.required"> Email es requerido.</div>
                             <div *ngIf="email?.errors.email"> Email debe ser válido.</div>
                         </div>
                     </div>
                     <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
-                        <input type="text" name="CellPhone" id="phone" [(ngModel)]="model.phone" class="form-control" placeholder=" teléfono">
+                        <input type="text" name="CellPhone" id="phone" [(ngModel)]="model.phone" class="form-control" required placeholder=" teléfono">
                     </div>
                     <div class="form-group camp col-xs-12 col-sm-6 col-md-6">
                         <input type="text" name="cellphone" id="cellphone" [(ngModel)]="model.cellphone" class="form-control" placeholder=" Otro teléfono">
@@ -46,21 +46,21 @@
 
                     <div class="camp col-xs-12 col-sm-6 col-md-6">
                         <select name="cargo" class="ddList cuadroInput" [(ngModel)]="model.cargo" #cargo="ngModel">
-                                             <option value="">Cargo</option>
-                                             <option class="lt" value="Ceo">CEO</option>
-                                             <option class="lt" value="Gergen">Gerente General</option>
-                                             <option class="lt" value="consl">Consultor</option>
-                                             <option class="lt" value="Genproy">Gerente de Proyectos</option>
-                                             </select>
+                            <option value="">Cargo</option>
+                            <option class="lt" value="Ceo">CEO</option>
+                            <option class="lt" value="Gergen">Gerente General</option>
+                            <option class="lt" value="consl">Consultor</option>
+                            <option class="lt" value="Genproy">Gerente de Proyectos</option>
+                        </select>
                     </div>
                     <div class="form-group camp2 col-xs-12">
                         <textarea name="message" id="message" [(ngModel)]="model.message" rows="5" class="form-control" placeholder=" Mensaje" required #message="ngModel"></textarea>
-                        <div *ngIf="message.invalid && (message.dirty || message.touched)" class="error">
+                        <div *ngIf="message.invalid && (message.dirty || message.touched)" class="error alert alert-warning">
                             <div *ngIf="message?.errors.required">Message es requerido.</div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <button [disabled]="!contactForm.form.valid" class="boton col-xs-12 col-md-4 col-md-push-4"> Send</button>
+                        <button [disabled]="!contactForm.form.valid" class="boton col-xs-12 col-md-4 col-md-push-4"> Enviar</button>
                     </div>
                 </form>
             </div>
@@ -104,8 +104,8 @@
                                 <i class="fa fa-envelope" style="margin-top:-20px;"></i>
                             </div>
                         </div>
-                        <b class="font" style="font-size:18px;">Correo Electrónico:</b>
-                        <a href="mailto:contacto@gmail.com" target="_blank">contacto@gmail.com</a>
+
+                        <a href="mailto:info@aextum.com" target="_blank">info@aextum.com</a>
                     </div>
                     <div class="clear"></div>
                     <div class="info">
@@ -121,16 +121,14 @@
 
                         <div>
                             <div class="icon col-xs-1 ">
-                                <a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/luiszeron/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                             </div>
                             <div class="icon col-xs-1 ">
-                                <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/@aextum" target="_blank"> <i class="fa fa-twitter"></i></a>
                             </div>
+
                             <div class="icon col-xs-1 ">
-                                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <div class="icon col-xs-1 ">
-                                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/aextum/" target="_blank"> <i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -164,8 +162,7 @@
                                 <i class="fa fa-envelope" style="margin-top:-20px;"></i>
                             </div>
                         </div>
-                        <b class="font" style="font-size:18px;">Correo Electrónico:</b>
-                        <a href="mailto:contacto@gmail.com" target="_blank">contacto@gmail.com</a>
+                        <a href="mailto:info@aextum.com" target="_blank">info@aextum.com</a>
                     </div>
 
                     <div class="clear"></div>
@@ -182,17 +179,16 @@
                         <h6 style="color:var(--amarillo);">Síguenos en:</h6>
 
                         <div>
+
                             <div class="icon col-xs-1 ">
-                                <a href="https://facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/luiszeron/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                             </div>
                             <div class="icon col-xs-1 ">
-                                <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/@aextum" target="_blank"> <i class="fa fa-twitter"></i></a>
                             </div>
+
                             <div class="icon col-xs-1 ">
-                                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <div class="icon col-xs-1 ">
-                                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/aextum/" target="_blank"> <i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

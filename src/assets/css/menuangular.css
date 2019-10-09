@@ -107,4 +107,8 @@
     .navbar-brand>img {
         padding-top: 15px;
     }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        margin-top: 30px;
+    }
 }

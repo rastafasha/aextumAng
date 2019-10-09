@@ -191,7 +191,7 @@
     margin-top: 10px;
     background: rgba(37, 54, 70, 0.7);
     padding-top: 10px;
-    top: 250px;
+    top: 0px;
 }
 
 .textosCenter1 h1 {
@@ -217,7 +217,7 @@
 .textosCenter2 {
     font-family: 'Antipasto', 'Raleway', sans-serif;
     position: absolute;
-    top: 55%;
+    top: 35%;
     left: 21%;
     padding-top: 10px;
     padding-bottom: 10px;

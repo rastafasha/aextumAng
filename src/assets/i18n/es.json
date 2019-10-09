@@ -1,0 +1,12 @@
+{
+    "cookie": {
+        "header": "Usamos Cookies en este Website!",
+        "message": "Este sitio usa Cookies para asegurar la mejor experiencia en nuestro sitio.",
+        "dismiss": "Acepto!",
+        "allow": "Permitir Cookies",
+        "deny": "Rechazar",
+        "link": "Más info",
+        "href": "https://cookiesandyou.com",
+        "policy": "Políticas de Cookies"
+    }
+}

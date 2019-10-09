@@ -112,6 +112,12 @@ b {
     font-weight: 700;
 }
 
+hr {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
 @media only screen and (max-width: 770px) {
     h1 {
         font-size: 40px !important;
@@ -156,7 +162,7 @@ b {
 
 .flex {
     margin: 0;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -174,26 +180,30 @@ b {
     box-shadow: 0px 2px 6px #3131316e;
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
     .marco1 {
         border: 3px solid;
         border-image-source: url(../img/logosolo.png);
         border-image-slice: 3;
     }
+    .flex {
+        padding-top: 30px;
+    }
 }
 
-
-}
 .linM {
     border-bottom: 1px solid var(--amarillo);
     height: 40px;
     background-color: #eb7203
 }
+
 .bullet ul li {
     list-style-image: url(../img/bullet.gif);
 }
 
+
 /*---Icontext--*/
+
 .iconText {
     height: 150px;
     padding: 20px;
@@ -201,6 +211,7 @@ b {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .iconText i {
     font-size: 40px;
     color: var(--amarillo);
@@ -208,25 +219,30 @@ b {
     margin: 0 auto;
     margin-top: 30%;
 }
+
 .iconText h2 {
     color: var(--amarillo);
     text-align: center;
 }
+
 .iconText .circle {
     background: transparent;
     border-style: solid;
     border: 1px solid var(--amarillo);
 }
+
 .circle_Title {
     width: 38%;
     height: 180px;
     float: left;
 }
+
 .circle_Title .circle {
     background: transparent;
     border-style: solid;
     border: 1px solid var(--amarillo);
 }
+
 .circle_Title .circle i {
     font-size: 40px;
     color: var(--amarillo);
@@ -236,7 +252,9 @@ b {
     margin-top: 30%;
 }
 
+
 /*---*/
+
 .bordAex {
     background: transparent;
     border-style: solid;
@@ -256,6 +274,7 @@ b {
     flex-shrink: 1;
     flex-basis: auto;
 }
+
 .bordAex i {
     font-size: 60px;
     color: var(--amarillo);
@@ -263,6 +282,7 @@ b {
     margin: 0 auto;
     margin-top: 10%;
 }
+
 .hom .iconText .bordAex {
     width: 40%;
     height: 120px;
@@ -270,6 +290,7 @@ b {
     margin-bottom: 20px;
     text-align: center;
 }
+
 @media only screen and (min-width: 590px) and (max-width: 990px) {
     .hom .iconText .bordAex {
         width: 90%;
@@ -277,15 +298,18 @@ b {
     }
 }
 
+
 /*---about nosotros--*/
+
 .contenidoabout {
     min-height: 300px;
     height: auto;
     padding-top: 60px;
     padding-bottom: 40px;
 }
+
 .misio {
-    padding-top: 95px;
+    padding-top: 220px;
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -293,7 +317,9 @@ b {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
+    height: 100vh;
 }
+
 .contenidoabout h4 {
     color: #fff;
     background-color: var(--amarillo);
@@ -301,6 +327,7 @@ b {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .contenidoabout1 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -314,19 +341,25 @@ b {
     flex-shrink: 1;
     flex-basis: auto;
 }
+
 .contenidoabout1 h4 {
     color: #fff;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .bio {
     padding-top: 40px;
     padding-bottom: 40px;
+    height: 100vh;
+    background-color: #f2f2f2;
 }
+
 .bio h1 {
     padding-bottom: 40px;
 }
+
 .bio img {
     width: 70%;
     height: auto;
@@ -338,7 +371,9 @@ b {
     -moz-border-radius: 130px;
 }
 
+
 /*----ofic--*/
+
 .offic {
     background-image: url(../img/OutsideCounsel.jpg);
     background-position: center;
@@ -351,13 +386,14 @@ b {
     margin: 0;
     padding-top: 120px;
 }
+
 .viss {
     background-image: url(../img/textura3.png), url(../img/pexels-photo-26419.jpg);
     background-position: bottom left, center;
     background-repeat: no-repeat;
     background-size: auto, cover;
     margin: 0;
-    padding-top: 120px;
+    padding-top: 220px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -365,7 +401,9 @@ b {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
+    height: 100vh;
 }
+
 @media only screen and (max-width: 590px) {
     .viss {
         margin: 0;
@@ -375,14 +413,18 @@ b {
         flex-direction: column;
     }
 }
+
 .offic .moduloanuncio {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .offic .moduloanuncio p {
     color: #fff;
 }
 
+
 /*----city2---*/
+
 .city2 {
     background-image: url(../img/textura2.png), url(../img/header-background-3.jpg);
     background-position: right bottom, center;
@@ -394,6 +436,7 @@ b {
     padding-top: 70px;
     padding-bottom: 50px;
 }
+
 .moduloanuncio {
     min-height: 198px;
     height: auto;
@@ -402,22 +445,28 @@ b {
     padding: 30px;
     box-shadow: 0px 2px 6px #3131316e;
 }
+
 .moduloanuncio h3 {
     color: var(--amarillo);
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 .moduloanuncio p {
     color: #333;
 }
 
+
 /*----contact**/
+
 .conctact {
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
+
 /*---soluciones*/
+
 .moduloSoluc {
     height: 250px;
     padding: 20px;
@@ -425,66 +474,77 @@ b {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+
 .moduloSoluc .bordAex {
     width: 80%
 }
+
 @media only screen and (max-width: 590px) {
     .bordAex i {
         font-size: 40px;
     }
-    
     .moduloSoluc .bordAex {
         width: 100%;
     }
 }
+
 .moduloSoluc i {
     text-align: center;
 }
+
 .moduloSoluc p {
     padding: 10px;
     text-align: center;
 }
+
 .moduloSoluc h6 {
     color: var(--amarillo);
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
 }
+
 .soluc {
     padding-top: 60px;
     padding-bottom: 60px;
     min-height: 600px;
-    height: auto;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .soluc1 {
     background-image: url(../img/textura3.png), url(../img/startup-photosConsulSAP.jpg);
     background-position: bottom left, center;
     background-repeat: no-repeat;
     background-size: auto, cover;
 }
+
 .soluc2 {
     background-image: url(../img/textura4.png), url(../img/startup-photosAdmSist.jpg);
     background-size: auto, cover;
     background-position: bottom right, center;
 }
+
 .soluc3 {
     background-image: url(../img/textura3.png), url(../img/pexels-photo-27501.jpg);
     background-position: bottom left, center;
     background-repeat: no-repeat;
     background-size: auto, cover;
 }
+
 .soluc4 {
     background-image: url(../img/textura2.png), url(../img/pexels-photo-134643.jpeg);
     background-position: right center;
     background-size: auto, cover;
     background-position: bottom right, center;
 }
+
 .soluc5 {
     background-image: url(../img/photo-SapSolut.jpg);
     background-position: right center;
 }
+
 .contTt {
     background-color: rgba(37, 55, 70, 0.7);
     padding: 15px;
@@ -494,20 +554,25 @@ b {
     padding: 30px;
     box-shadow: 0px 2px 6px #3131316e;
 }
+
 .contTt1 {
     margin-top: 160px;
 }
+
 .contTt p {
     color: #fff;
 }
+
 .contTt ul li {
     color: #fff;
 }
+
 @media only screen and (max-width: 770px) {
     .contTt h3 {
         font-size: 24px !important;
     }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 1030px) and (orientation: portrait) {
     .soluc {
         padding-top: 70px;
@@ -516,6 +581,7 @@ b {
         height: auto;
     }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 1030px) and (orientation: landscape) {
     .soluc {
         padding-top: 70px;
@@ -525,11 +591,14 @@ b {
     }
 }
 
+
 /*---Proyectos---*/
+
 .proyecs {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .proyecs img {
     width: 100%;
     height: 150px;
@@ -537,9 +606,11 @@ b {
     float: left;
     margin-bottom: 15px;
 }
+
 #uno {
     height: 50px;
 }
+
 #loader {
     background-image: url(../img/loading.gif);
     width: 50px;

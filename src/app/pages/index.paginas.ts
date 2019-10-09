@@ -1,3 +1,4 @@
+
 // paginas
 export {HomeComponent} from '../pages/home/home.component';
 export { NosotrosComponent } from '../pages/nosotros/nosotros.component';
@@ -8,6 +9,9 @@ export { UpgradeComponent } from '../pages/upgrade/upgrade.component';
 export { SaphanaComponent } from '../pages/saphana/saphana.component';
 export { SitemapComponent } from '../pages/sitemap/sitemap.component';
 export { NotFoundComponent } from '../pages/not-found/not-found.component';
+export { PoliticascookiesComponent } from './politicascookies/politicascookies.component';
+export { PoliticaPrivacidadComponent } from './politica-privacidad/politica-privacidad.component';
+export { TerminosUsoComponent } from './terminos-uso/terminos-uso.component';
 
 
 
