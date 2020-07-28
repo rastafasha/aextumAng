@@ -12,20 +12,20 @@
 <section class="sitemap flex">
     <div class="container">
         <ul class="col-xs-12 col-sm-6">
-            <li><a [href]="['/']">Inicio</a></li>
-            <li><a [href]="['/nosotros']">Nosotros</a></li>
+            <li><a routerLink="/">Inicio</a></li>
+            <li><a routerLink="nosotros">Nosotros</a></li>
             <ul>
-                <li><a href="nosotros#mis">Misión</a></li>
-                <li><a href="nosotros#vis">Visión</a></li>
+                <li><a routerLink="nosotros#mis">Misión</a></li>
+                <li><a routerLink="nosotros#vis">Visión</a></li>
             </ul>
-            <li><a [href]="['/servicios']">Servicios</a></li>
+            <li><a routerLink="servicios">Servicios</a></li>
             <ul>
-                <li><a [href]="['/servicios/consultoria-sap-basis']">Consultoría SAP Basis</a></li>
-                <li><a [href]="['/servicios/administracion-de-sistemas']">Administracíon de Sistemas</a></li>
-                <li><a [href]="['/servicios/upgrade']">Upgrade</a></li>
-                <li><a [href]="['/servicios/sap-hana']">Sap Hana</a></li>
+                <li><a routerLink="../servicios/consultoria-sap-basis">Consultoría SAP Basis</a></li>
+                <li><a routerLink="../servicios/administracion-de-sistemas">Administracíon de Sistemas</a></li>
+                <li><a routerLink="../servicios/upgrade">Upgrade</a></li>
+                <li><a routerLink="../servicios/sap-hana">Sap Hana</a></li>
             </ul>
-            <li><a [href]="['/contacto']">Contacto</a></li>
+            <li><a routerLink="contacto">Contacto</a></li>
         </ul>
     </div>
 </section>

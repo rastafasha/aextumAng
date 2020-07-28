@@ -623,3 +623,11 @@ hr {
     background-color: #fff;
     border: 1px solid rgba(235, 114, 3, 1);
 }
+
+.tabla {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
