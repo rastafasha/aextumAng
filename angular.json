@@ -13,7 +13,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-            "aot": true,
+                        "aot": true,
                         "outputPath": "dist/aextumwepapp",
                         "index": "src/index.html",
                         "main": "src/main.ts",
@@ -29,8 +29,7 @@
                         ],
                         "scripts": [
                             "node_modules/cookieconsent/build/cookieconsent.min.js"
-                        ],
-                        "es5BrowserSupport": true
+                        ]
                     },
                     "configurations": {
                         "production": {
